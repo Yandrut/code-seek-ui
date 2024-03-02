@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b25d0164-ed41-4710-80ec-8b51023f0e38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/yandrut/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/yandrut/HomePageTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2d5Otk5Kzoq3rQV7CP4zIyJujtn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.HomePageTest.allowsToSubmitContactForm.executor": "Run",
+    "TestNG.HomePageTest.allowsToSwitchIndustriesList.executor": "Run",
+    "TestNG.HomePageTest.executor": "Run",
+    "TestNG.HomePageTest.redirectsToAboutUs.executor": "Run",
+    "TestNG.HomePageTest.redirectsToClutch.executor": "Run",
+    "TestNG.HomePageTest.redirectsToLinkedIn.executor": "Debug",
+    "TestNG.HomePageTest.redirectsToTechExpertise.executor": "Run",
+    "TestNG.HomePageTest.redirectsToUpwork.executor": "Run",
+    "TestNG.TechExpertiseTest.executor": "Run",
+    "TestNG.TechExpertiseTest.titleOfWebPageMatches.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.TechExpertiseTest">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="code-seek-ui" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="code-seek-ui" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="code-seek-ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yandrut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.yandrut" />
+      <option name="MAIN_CLASS_NAME" value="org.yandrut.HomePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.allowsToSubmitContactForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="code-seek-ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yandrut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.yandrut" />
+      <option name="MAIN_CLASS_NAME" value="org.yandrut.HomePageTest" />
+      <option name="METHOD_NAME" value="allowsToSubmitContactForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.allowsToSwitchIndustriesList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="code-seek-ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yandrut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.yandrut" />
+      <option name="MAIN_CLASS_NAME" value="org.yandrut.HomePageTest" />
+      <option name="METHOD_NAME" value="allowsToSwitchIndustriesList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TechExpertiseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="code-seek-ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yandrut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.yandrut" />
+      <option name="MAIN_CLASS_NAME" value="org.yandrut.TechExpertiseTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TechExpertiseTest.titleOfWebPageMatches" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="code-seek-ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yandrut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.yandrut" />
+      <option name="MAIN_CLASS_NAME" value="org.yandrut.TechExpertiseTest" />
+      <option name="METHOD_NAME" value="titleOfWebPageMatches" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TechExpertiseTest" />
+        <item itemvalue="TestNG.TechExpertiseTest.titleOfWebPageMatches" />
+        <item itemvalue="TestNG.HomePageTest.allowsToSubmitContactForm" />
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.HomePageTest.allowsToSwitchIndustriesList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-bfa3237e" />
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-6ca9ab15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b25d0164-ed41-4710-80ec-8b51023f0e38" name="Changes" comment="" />
+      <created>1709294697236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709294697236</updated>
+      <workItem from="1709294699157" duration="2039000" />
+      <workItem from="1709371720955" duration="18366000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
