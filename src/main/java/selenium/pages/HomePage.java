@@ -97,25 +97,22 @@ public class HomePage {
         driver.findElement(ABOUT_US_LINK).click();
     }
 
-    public void navigateToLinkedIn(String url) {
-        log.info("Navigate to LinkedIn: " + url);
+    public void navigateToLinkedIn() {
+        log.info("Navigate to LinkedIn: ");
         driver.findElement(LINKEDIN_PAGE).click();
-        waitForWebsiteToBeOpened(url, 1);
     }
 
-    public void navigateToClutch(String url) {
-        log.info("Navigate to Clutch: " + url);
+    public void navigateToClutch() {
+        log.info("Navigate to Clutch");
         driver.findElement(CLUTCH_PAGE).click();
-        waitForWebsiteToBeOpened(url,1);
     }
 
-    public void navigateToUpwork(String url) {
-        log.info("Navigate to Upwork: " + url);
+    public void navigateToUpwork() {
+        log.info("Navigate to Upwork");
         driver.findElement(UPWORK_PAGE).click();
-        waitForWebsiteToBeOpened(url, 1);
     }
 
-    public void waitForWebsiteToBeOpened(String url, int windowIndex) {
+    public void waitForWebsiteToBeOpenedAndSwitchToNewTab(String url, int windowIndex) {
         switchToWindowHandleAtIndex(windowIndex, "Switch to new tab");
         DriverWaiter.waitForWebsiteToBeOpened(url);
     }
@@ -142,6 +139,8 @@ public class HomePage {
 
             if (paragraphList.get(i).isDisplayed()) {
                 counter++;
+            } else {
+                throw new RuntimeException("Element" + industriesList.get(i).getText() + " was not selected");
             }
         }
     }

@@ -41,6 +41,8 @@ public class TechExpertisePage {
 
             if (ariaSelectedValue.equals("true")) {
                 counter++;
+            } else {
+                throw new RuntimeException("Element" + element.getText() + " was not selected");
             }
         }
     }

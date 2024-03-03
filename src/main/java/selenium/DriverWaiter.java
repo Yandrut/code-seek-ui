@@ -17,11 +17,6 @@ public class DriverWaiter {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
-    public static void waitForElementToBeInvisible(WebElement element) {
-        WebDriverWait wait = new WebDriverWait(DriverProvider.getInstance(), Duration.ofSeconds(20L));
-        wait.until(ExpectedConditions.invisibilityOf(element));
-    }
-
     public static void waitForWebsiteToBeOpened(String url) {
         WebDriverWait wait = new WebDriverWait(DriverProvider.getInstance(), Duration.ofSeconds(20L));
         wait.until(ExpectedConditions.urlMatches(url));

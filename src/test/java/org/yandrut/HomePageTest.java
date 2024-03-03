@@ -8,7 +8,7 @@ import static org.testng.AssertJUnit.assertTrue;
 
 public class HomePageTest extends BaseTest {
 
-    @Test
+    @Test(description = "Verify that allows to submit a contact form")
     public void allowsToSubmitContactForm() {
         HomePage page = new HomePage(DriverProvider.getInstance());
         page.clickOnContactUs();
@@ -22,7 +22,7 @@ public class HomePageTest extends BaseTest {
         assertEquals(expectedMessage, actualMessage);
     }
 
-    @Test
+    @Test(description = "Verify that allows to redirect to Tech Expertise page")
     public void redirectsToTechExpertise() {
         HomePage page = new HomePage(DriverProvider.getInstance());
         page.navigateToTechExpertise();
@@ -32,7 +32,7 @@ public class HomePageTest extends BaseTest {
         assertEquals(expected, actual);
     }
 
-    @Test
+    @Test(description = "Verify that allows to click through industries list")
     public void allowsToSwitchIndustriesList() {
         HomePage page = new HomePage(DriverProvider.getInstance());
         page.clickThroughIndustriesElements();
@@ -41,7 +41,7 @@ public class HomePageTest extends BaseTest {
         assertTrue(allVisible);
     }
 
-    @Test
+    @Test(description = "Verify that allows to redirect to About Us page")
     public void redirectsToAboutUs() {
         HomePage page = new HomePage(DriverProvider.getInstance());
         page.navigateToAboutUs();
@@ -51,30 +51,33 @@ public class HomePageTest extends BaseTest {
         assertEquals(expected, actual);
     }
 
-    @Test
+    @Test(description = "Verify that allows to redirect to LinkedIn page")
     public void redirectsToLinkedIn() {
         HomePage page = new HomePage(DriverProvider.getInstance());
-        page.navigateToLinkedIn("https://www.linkedin.com/company/codeseek/");
+        page.navigateToLinkedIn();
+        page.waitForWebsiteToBeOpenedAndSwitchToNewTab("https://www.linkedin.com/company/codeseek/", 1);
         String expected = "CodeSeek | LinkedIn";
         String actual = page.getWebsiteTitle();
 
         assertEquals(expected, actual);
     }
 
-    @Test
+    @Test(description = "Verify that allows to redirect to Clutch page")
     public void redirectsToClutch() {
         HomePage page = new HomePage(DriverProvider.getInstance());
-        page.navigateToClutch("https://clutch.co/profile/codeseek#highlights");
+        page.navigateToClutch();
+        page.waitForWebsiteToBeOpenedAndSwitchToNewTab("https://clutch.co/profile/codeseek#highlights", 1);
         String expected = "CodeSeek Reviews | 7 Client Reviews | Clutch.co";
         String actual = page.getWebsiteTitle();
 
         assertEquals(expected, actual);
     }
 
-    @Test
+    @Test(description = "Verify that allows to redirect to Upwork page")
     public void redirectsToUpwork() {
         HomePage page = new HomePage(DriverProvider.getInstance());
-        page.navigateToUpwork("https://www.upwork.com/agencies/codeseek/");
+        page.navigateToUpwork();
+        page.waitForWebsiteToBeOpenedAndSwitchToNewTab("https://www.upwork.com/agencies/codeseek/", 1);
         String expected = "CodeSeek | Upwork";
         String actual = page.getWebsiteTitle();
 
